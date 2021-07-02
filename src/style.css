@@ -1,3 +1,27 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background-color: darkgreen ;
+    background: radial-gradient(darkgreen, rgb(85, 184, 85) , green) ;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 95vh;
+    text-align: center;
+    color: white;
+
+}
+main {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
-    color: lightgrey;
+    color: goldenrod;
+}
+
+#message-el {
+
+}
+p {
+    font-size: 1.3em;
 }
