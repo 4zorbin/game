@@ -2,9 +2,9 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     background-color: darkgreen ;
-    background: radial-gradient(darkgreen, rgb(85, 184, 85) , green) ;
+    background: linear-gradient(darkgreen, green) ;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     height: 95vh;
     text-align: center;
     color: white;
@@ -20,8 +20,15 @@ h1 {
 }
 
 #message-el {
-
+    font-style: italic;
 }
 p {
-    font-size: 1.3em;
+    font-size: 1.8em;
+}
+button {
+    font-size: 2em;
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    text-transform: uppercase;
 }
