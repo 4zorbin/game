@@ -1,6 +1,5 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
     background-color: darkgreen ;
     background: linear-gradient(darkgreen, green) ;
     background-repeat: no-repeat;
@@ -8,8 +7,8 @@ body {
     height: 95vh;
     text-align: center;
     color: white;
-
 }
+
 main {
     margin: 0;
     padding: 0;
@@ -22,9 +21,11 @@ h1 {
 #message-el {
     font-style: italic;
 }
+
 p {
     font-size: 1.8em;
 }
+
 button {
     font-size: 2em;
     color: #016f32;
