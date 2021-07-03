@@ -31,5 +31,8 @@ button {
     color: #016f32;
     width: 150px;
     background: goldenrod;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    border: darkseagreen 2px solid;
+    border-radius: 10px;
+
 }
