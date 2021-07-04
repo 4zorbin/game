@@ -1,5 +1,6 @@
 let firstcard = 10
 let secondcard = 6
+let cards = [firstcard, secondcard]
 let sum = firstcard + secondcard
 let blackJack = false
 let message = ""
@@ -27,7 +28,7 @@ function renderGame(){
     }
     messageEl.textContent = message
     sumEl.textContent = 'Sum: ' + sum
-    cardsEl.textContent = "Cards: " + firstcard + " " + secondcard
+    cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1]
 }
 
 function newcard(){
