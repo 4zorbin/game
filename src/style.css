@@ -25,16 +25,27 @@ h1 {
 p {
     font-size: 1.8em;
 }
-
-button {
-    padding: 5px;
-    font-weight: bold;
-    font-size: 1.4em;
-    color: #016f32;
-    width: 200px;
-    background: goldenrod;
-    /* text-transform: uppercase; */
-    border: none;
-    border-radius: 5px;
-
+button.btnStart {
+    margin-bottom: 15px;
 }
+button {
+    padding: 15px 25px;
+    margin: 5px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+button:hover {
+  transform: scale(1.05);
+}
+button:active {
+    background-color: yellowgreen;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
