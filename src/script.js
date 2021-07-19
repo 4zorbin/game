@@ -30,7 +30,6 @@ function renderGame(){
     sumEl.textContent = 'Sum: ' + sum
     cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1]
 }
-
 function newcard(){
     console.log('New card from the deck!')
     let card = 5
